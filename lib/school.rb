@@ -17,4 +17,5 @@ class School
     @roster[grade_given]
   end
   def sort 
-    @roster.each do 
+    sorted_roster = {}
+    
