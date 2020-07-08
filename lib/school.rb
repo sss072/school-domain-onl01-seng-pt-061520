@@ -18,4 +18,5 @@ class School
   end
   def sort 
     sorted_roster = {}
-    @roster.each do |
+    @roster.each do |key, value|
+      
